@@ -1,0 +1,10 @@
+.link-secondary {
+  color: #16a9ff!important;
+}
+.back-btn{
+  background-color: black;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+}

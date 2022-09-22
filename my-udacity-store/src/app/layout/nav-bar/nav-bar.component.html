@@ -1,0 +1,11 @@
+<nav class="navbar" style="margin:0 0 25px 0 ; padding:0;">
+    <div class="header">
+        <a routerLink="/">MyStore</a>
+        <div class="navbar-col">
+          <a routerLink="/" [ngClass]="{'active' : currentComponent === 'home'}" class="nav-link"
+              routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>Product List</a>
+          <a routerLink="/cart" [ngClass]="{'active' : currentComponent === 'cart'}" class="nav-link"
+              routerLinkActive="active">Cart</a>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,26 @@
+.header {
+  text-align: center;
+  background: #0e1416;
+  color: #fff;
+  padding: 5px;
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+  font-size: 22px;
+  transition: .3s;
+}
+a:hover {
+  color: aqua;
+  letter-spacing: 1px;
+}
+.navbar-col {
+  display: flex;
+  justify-content: center;
+}
+.active {
+  color: aqua;
+}
